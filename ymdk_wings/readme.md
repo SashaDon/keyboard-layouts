@@ -23,6 +23,8 @@ This is my first programmable keyboard, I wanted to get an alice key layout real
 - Reset keyboard and flash with the new file
 - You're done!
 
+![image](https://user-images.githubusercontent.com/2576834/182390452-22eaeb87-c6cc-4178-a8f2-9f9daafb08f1.png)
+
 *Features*:
 - Better ergonomics than normal keyboard, but keeps the same button layout for no learning curve.
 - 8 custom layers
