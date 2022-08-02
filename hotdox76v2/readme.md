@@ -21,7 +21,7 @@
 - If you wanted to test out my layout: then switch to "Save + Load" tab on the left and Load `hotdox_sasha.json` **for windows**. (`hotdox_max.json` **if you want the MAC version** of macros and other little changes, this was my brothers layout when he used the board)
 Quit Via and you are DONE!
 
--> picture of board here
+![image](https://user-images.githubusercontent.com/2576834/182404385-f173f04a-9343-484a-8689-5c2694d421af.png)
 
 *Thoughts*:
 - The keyboard was not very good at first, but after I played with the layout for a while, figured out a good one with the Lower layer that I was familiar with. Also replaced the switches for the 4 large keys with black inks which were lubed and filmed. Now the board sounds and feels so much better without the extra noise that was being made by the stabs. Overall the board feels and looks good when I import familiar features and buttons from my other boards. Not really a problem but it has a bunch of extra keys that I feel like I will never use because they are awkward to reach with any finger.
