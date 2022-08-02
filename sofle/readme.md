@@ -13,3 +13,5 @@ Features:
 - Support for Mac and Windows
 
 This layout took me about 15 iterations, each time using less and less keys. Want to try out the kyria in the future or the ferris sweep! Currently have a 42 key layout, want to try to lower it to 36 keys or 34 keys later.
+
+- 42 key because I don't really use the top row, and the two side thumb buttons on each side, making 42 keys.
