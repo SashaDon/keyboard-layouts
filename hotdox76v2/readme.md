@@ -28,3 +28,4 @@ Quit Via and you are DONE!
 
 **TODO**:
 - Make a layout image for board.
+- Sound Test
