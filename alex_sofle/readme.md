@@ -25,6 +25,8 @@ You are all set!
 
 ![image](https://user-images.githubusercontent.com/2576834/182391084-ed44b675-320f-4d9f-a0fb-e0bbaf9aa177.png)
 
+*Sound Test*:https://soundcloud.com/alex-don-6608236/sofle-v1-gateron-black-inks-v2?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+
 *Thoughts on QMK*:
 My first introduction to qmk coding. Personally to me qmk is really cool, took a while to get the hang of the whole qmk thing. But I really like the whole process and really making something mine. From putting it together from scratch to programing it to suit my needs. Its just something you don't get from the off the shelf boards, but with qmk boards you can change anything at anypoint, if you don't like a key or you are missing something you can always add it and after you set everything up it only takes a couple of clicks!
 

@@ -25,6 +25,8 @@ This is my first programmable keyboard, I wanted to get an alice key layout real
 
 ![image](https://user-images.githubusercontent.com/2576834/182390452-22eaeb87-c6cc-4178-a8f2-9f9daafb08f1.png)
 
+*Sound Test*: https://soundcloud.com/alex-don-6608236/ymdk-sound-test-nkcreams-lubed?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
+
 *Features*:
 - Better ergonomics than normal keyboard, but keeps the same button layout for no learning curve.
 - 8 custom layers
