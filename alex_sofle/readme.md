@@ -2,6 +2,7 @@
 
 ![sofle layout](https://user-images.githubusercontent.com/2576834/182282204-0d409030-e7c1-42d5-bbb8-314655049f8a.jpg)
 The bottom three layers are a toggle not hold.
+The json file is for keyboard-layout-editor.com; for the image above.
 
 *Features*:
 - Oled Displays
