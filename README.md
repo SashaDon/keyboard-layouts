@@ -8,3 +8,5 @@ Here I am saving my qmk source files for custom keyboards
 Keebs to add to the collection:
 - Kyria
 - Ferris Sweep
+
+Currently using: **Customized HotDox 76 V2**
