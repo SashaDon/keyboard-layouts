@@ -1,19 +1,17 @@
-![SofleKeyboard default keymap](https://github.com/josefadamcik/SofleKeyboard/raw/master/Images/soflekeyboard.png)
-![SofleKeyboard adjust layer](https://github.com/josefadamcik/SofleKeyboard/raw/master/Images/soflekeyboard_layout_adjust.png)
+**My custom Sofle v1 42 key layout:**
 
-
-# Default keymap for Sofle Keyboard
-
-Layout in [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/76efb423a46cbbea75465cb468eef7ff) and [adjust layer](http://www.keyboard-layout-editor.com/#/gists/4bcf66f922cfd54da20ba04905d56bd4)
-
+![sofle layout](https://user-images.githubusercontent.com/2576834/182282204-0d409030-e7c1-42d5-bbb8-314655049f8a.jpg)
+The bottom three layers are a toggle not hold.
 
 Features:
+- Oled Displays
+- Fully custom lower and raise layers to fit me personally.
+- Mouse Layer, Keypad Layer
+- Has a gaming layer which makes swaps the main buttons on the halves putting the space on the left active side.
+- Multiple layout support (Qwerty and Dvorak)
+- Support for russian typing
+- Support for Mac and Windows
 
-- Symmetric modifiers (CMD/Super, Alt/Opt, Ctrl, Shift)
-- Various modes, can be switched (using Adjust layer and the selected one is stored in EEPROM.
-- Modes for Qwerty and Colemak support
-- Modes for Mac vs Linux/Win support -> different order of modifiers and different action shortcuts on the "UPPER" layer (the red one in the image). Designed to simplify transtions when switching between operating systems often.
-- The OLED on master half shows selected mode and caps lock state and is rotated.
-- Left encoder controls volume up/down/mute. Right encoder PGUP/PGDOWN.
+This layout took me about 15 iterations, each time using less and less keys. Want to try out the kyria in the future or the ferris sweep! Currently have a 42 key layout, want to try to lower it to 36 keys or 34 keys later.
 
-
+- 42 key because I don't really use the top row, and the two side thumb buttons on each side, making 42 keys.
