@@ -32,3 +32,5 @@ This board has really good key placements which are super comfortable to use, an
 
 *Putting it together*:
 From unboxing to using it, it took me about 25 hours! had to solder every little thing to the pcb, which took around 20 hours of work, and like 5 more hours for lube and film the switches.
+
+Want to move to Dvorak full time on it, but since I have to use the russian layout alot I can't, but planning to to do in the future.
