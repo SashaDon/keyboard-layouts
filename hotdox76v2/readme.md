@@ -18,7 +18,7 @@
 - Install Via from https://github.com/the-via/releases/releases for your operating system
 - Open Via; In the top left "File", then "Import Keymap", and import `HotDox_V2_VIA.json`. Now via should see that via recognized the keyboard.
 - You can now customize any key to whatever you want, and without flashing or anything extra the keyboard will instantly save all your changes even if you turn of VIA. **If you thats what you wanted then you are done!**
-- If you wanted to test out my layout: then switch to "Save + Load" tab on the left and Load `hotdox_sasha.json` **for windows**. (`hotdox_max.json` **if you want the MAC version** of macros and other little changes, this was my brothers layout when he used the board)
+- If you wanted to test out my layout: then switch to "Save + Load" tab on the left and Load `hotdox_win.json` **for windows**. (`hotdox_mac.json` **if you want the MAC version** of macros and other little changes, this was my brothers layout when he used the board)
 Quit Via and you are DONE!
 
 ![image](https://user-images.githubusercontent.com/2576834/182404385-f173f04a-9343-484a-8689-5c2694d421af.png)
