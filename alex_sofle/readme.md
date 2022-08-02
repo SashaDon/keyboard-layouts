@@ -23,7 +23,7 @@ You are all set!
 
 *Or you could just download and use the hex file!*
 
-![image](https://user-images.githubusercontent.com/2576834/182390808-3bf1c553-fe79-4198-a56a-d634fea8ebaf.png)
+![image](https://user-images.githubusercontent.com/2576834/182391084-ed44b675-320f-4d9f-a0fb-e0bbaf9aa177.png)
 
 *Thoughts on QMK*:
 My first introduction to qmk coding. Personally to me qmk is really cool, took a while to get the hang of the whole qmk thing. But I really like the whole process and really making something mine. From putting it together from scratch to programing it to suit my needs. Its just something you don't get from the off the shelf boards, but with qmk boards you can change anything at anypoint, if you don't like a key or you are missing something you can always add it and after you set everything up it only takes a couple of clicks!
