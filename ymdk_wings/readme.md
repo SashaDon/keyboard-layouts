@@ -39,3 +39,4 @@ This is my first programmable keyboard, I wanted to get an alice key layout real
 
 *Todo*:
 - Make a layout image with all the keys
+- Convert to keymap to QMK
