@@ -25,6 +25,8 @@ You are all set!
 
 ![image](https://user-images.githubusercontent.com/2576834/182391084-ed44b675-320f-4d9f-a0fb-e0bbaf9aa177.png)
 
+*Switches*: Gateron Black Inks V2 - lubed w/ krytox 205g0 and filmed w/ deskeys switch films.
+
 *Sound Test*:https://soundcloud.com/alex-don-6608236/sofle-v1-gateron-black-inks-v2?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
 
 *Thoughts on QMK*:

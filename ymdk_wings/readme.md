@@ -15,7 +15,7 @@ This is my first programmable keyboard, I wanted to get an alice key layout real
 - Download hex file
 - Reset keyboard and flash hex file to keyboard
 
-*How to change keys*:
+*How to modify layout*:
 - Download json file
 - Go to: http://mtkeyboard.vip/
 - Press "Upload Local configuration", find the json file and upload it
@@ -24,6 +24,8 @@ This is my first programmable keyboard, I wanted to get an alice key layout real
 - You're done!
 
 ![image](https://user-images.githubusercontent.com/2576834/182390452-22eaeb87-c6cc-4178-a8f2-9f9daafb08f1.png)
+
+*Switches*: NovelKey Creams - lubed w/ krytox 205g0
 
 *Sound Test*: https://soundcloud.com/alex-don-6608236/ymdk-sound-test-nkcreams-lubed?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing
 
@@ -39,4 +41,4 @@ This is my first programmable keyboard, I wanted to get an alice key layout real
 
 *Todo*:
 - Make a layout image with all the keys
-- Convert to keymap to QMK
+- Convert keymap to QMK
