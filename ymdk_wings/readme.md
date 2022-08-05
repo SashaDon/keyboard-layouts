@@ -40,7 +40,7 @@ This is my first programmable keyboard, I wanted to get an alice key layout real
 - Media Buttons
 
 *Price*:
-The whole board cost me around 350 euros for the barebones kit, switches and keycaps.
+The whole board cost me around 350 euros from https://ymdkey.com for the barebones kit, https://mechboards.co.uk for switches and keycaps.
 
 *Todo*:
 - Make a layout image with all the keys
