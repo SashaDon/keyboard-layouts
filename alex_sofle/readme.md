@@ -44,3 +44,5 @@ From unboxing to using it, it took me about 25 hours! had to solder every little
 All switches Black Inks, were hand lubed and filmed by me, no stabs which is great because I hate stabs. Keycaps were some cheap caps from the site I ordered the kit from.
 
 Want to move to Dvorak full time on it, but since I have to use the russian layout alot I can't, but planning to to do in the future.
+
+Recieved November 8th 2021. Used it actively to July 14th 2022. (7 months)

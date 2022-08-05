@@ -6,7 +6,7 @@ Note:
 --> insert layout image here.
 
 *About the board*:
-A cheap alice board, an alice board for which you don't have to spend a million bucks to get the unique board. If you want a good introduction to custom boards with all the customizabitily then this board is for you.
+A cheap alice board (about 170 euros for barebones kit), an alice board for which you don't have to spend a million bucks to get the unique board. If you want a good introduction to custom boards with all the customizabitily then this board is for you.
 
 *Thoughts*:
 This is my first programmable keyboard, I wanted to get an alice key layout really bad, because of the non existent learning curve that comes with this keyboard, that other split ergonomic split keyboards have. Of course down the line I got a proper split keyboard (The sofle v1 for the proper split keyboard feel). Anyway, this keyboard layout took a couple of iterations to perfect, its not perfect but since I stopped using it actively, I stopped making the layout better but for me its good, also I switched because my right wrist started to hurt from all the bending to reach the arrow keys and the backspace key on the right, When I switched to the sofle it fixed all my problems.
@@ -42,3 +42,5 @@ This is my first programmable keyboard, I wanted to get an alice key layout real
 *Todo*:
 - Make a layout image with all the keys
 - Convert keymap to QMK
+
+Recieved June 3rd 2021. Used it actively to November 8th 2021. (5 months)

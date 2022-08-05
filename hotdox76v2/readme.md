@@ -30,3 +30,5 @@ Quit Via and you are DONE!
 - Make a layout image for board.
 - Sound Test
 - Convert to QMK for more layers and functionality
+
+Recieved July 14th 2022 - my current daily driver.
