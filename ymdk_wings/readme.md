@@ -39,6 +39,9 @@ This is my first programmable keyboard, I wanted to get an alice key layout real
 - Toggle layer for placing Backspace instead of the split left spacebar (I use my left right hand only for space, my left thumb did nothing so I made the ergonomics a little better for myself)
 - Media Buttons
 
+*Price*:
+The whole board cost me around 350 euros for the barebones kit, switches and keycaps.
+
 *Todo*:
 - Make a layout image with all the keys
 - Convert keymap to QMK

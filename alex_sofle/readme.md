@@ -37,6 +37,9 @@ This board has really good key placements which are super comfortable to use, an
 
 - (42 key because I don't really use the top row, and the two side thumb buttons on each side, making 42 keys.)
 
+*Price*:
+The whole board cost me around 450 euros with all the components, switches and keycaps.
+
 *Putting it together*:
 From unboxing to using it, it took me about 25 hours! had to solder every little thing to the pcb, which took around 20 hours of work, and like 5 more hours for lube and film the switches.
 

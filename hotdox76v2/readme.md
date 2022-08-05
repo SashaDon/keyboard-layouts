@@ -26,6 +26,9 @@ Quit Via and you are DONE!
 *Thoughts*:
 - The keyboard was not very good at first, but after I played with the layout for a while, figured out a good one with the Lower layer that I was familiar with. Also replaced the switches for the 4 large keys with black inks which were lubed and filmed. Now the board sounds and feels so much better without the extra noise that was being made by the stabs. Overall the board feels and looks good when I import familiar features and buttons from my other boards. Not really a problem but it has a bunch of extra keys that I feel like I will never use because they are awkward to reach with any finger.
 
+*Price*:
+The whole board cost me 265 dollars($). It came preassembled, no need to buy any other parts, just plug and play.
+
 **TODO**:
 - Make a layout image for board.
 - Sound Test
