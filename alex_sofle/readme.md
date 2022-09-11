@@ -9,6 +9,7 @@ The json file is for http://www.keyboard-layout-editor.com/ ; for the image abov
 - Fully custom lower and raise layers to fit me personally.
 - Mouse Layer, Keypad Layer
 - Has a gaming layer which makes swaps the main buttons on the halves putting the space on the left active side.
+- Caps Word (press LShift + RShift)
 - Multiple layout support (Qwerty and Dvorak)
 - Support for russian typing
 - Support for Mac and Windows
