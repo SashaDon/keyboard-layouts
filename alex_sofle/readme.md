@@ -1,6 +1,6 @@
 **My custom Sofle v1 42 key layout:**
 
-![keyboard-layout(8)](https://user-images.githubusercontent.com/2576834/188700201-3ffac40d-cf13-4812-a2a5-0ff4b51ea376.png)
+![keyboard-layout(9)](https://user-images.githubusercontent.com/2576834/189505937-121dc5a2-4c91-4c06-9e74-16094b281197.png)
 The bottom three layers are a toggle not hold.
 The json file is for http://www.keyboard-layout-editor.com/ ; for the image above.
 
@@ -9,6 +9,7 @@ The json file is for http://www.keyboard-layout-editor.com/ ; for the image abov
 - Fully custom lower and raise layers to fit me personally.
 - Mouse Layer, Keypad Layer
 - Has a gaming layer which makes swaps the main buttons on the halves putting the space on the left active side.
+- Caps Word (press LShift + RShift)
 - Multiple layout support (Qwerty and Dvorak)
 - Support for russian typing
 - Support for Mac and Windows
