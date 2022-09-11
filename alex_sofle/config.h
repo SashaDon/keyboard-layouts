@@ -17,9 +17,10 @@
 #define MATRIX_COL_PINS { F6, F7, B1, B3, B2, B6 }
 #define DIODE_DIRECTION COL2ROW
 
-#define TAPPING_TERM 100
 #define DEBOUNCE 5
 
 /* communication between sides */
 #define SERIAL_USE_MULTI_TRANSACTION
 #define SPLIT_OLED_ENABLE
+
+#define BOTH_SHIFTS_TURNS_ON_CAPS_WORD
