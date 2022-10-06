@@ -1,6 +1,6 @@
 **My custom Sofle v1 42 key layout:**
 
-![keyboard-layout(12)](https://user-images.githubusercontent.com/2576834/190034741-5087c1c3-7901-4fb6-abb4-4e09cf930374.png)
+![keyboard-layout(13)](https://user-images.githubusercontent.com/2576834/194404655-4067c79e-bc2e-4342-8290-821deab48f6e.png)
 The bottom three layers are a toggle not hold.
 The json file is for http://www.keyboard-layout-editor.com/ ; for the image above.
 
