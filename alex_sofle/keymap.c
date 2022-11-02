@@ -1,10 +1,7 @@
 #include QMK_KEYBOARD_H
-// #include "features/caps_word.h"
-
 // make redo, mouse layer, gamer layer and figure out whats wrong with my screens!!!
 // its probably jumpers lines under the elite-c microcontroller!!! 
 
-#include "g/keymap_combo.h"
 
 enum sofle_layers {
     /* _M_XYZ = Mac Os, _W_XYZ = Win/Linux */
@@ -41,8 +38,15 @@ enum custom_keycodes {
     KC_REDO,
     KC_ALTTAB,
     KC_DPLINE,
-    KC_REVTTAB
+    KC_REVTTAB,
+    SELWORD
 };
+
+bool is_selword_active = false; // ADD this near the beginning of keymap.c
+bool nav_pressed = false;
+uint16_t selword_timer = 0;
+
+#include "g/keymap_combo.h"
 
 // Tap Dance declarations
 enum {
@@ -85,7 +89,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // |----------+----------+----------+----------+-----=----+----------+----------|      |----------+----------+-----=----+----------+----------+----------+----------|
       KC_LSFT,    KC_Z,      KC_X,      KC_C,      KC_V,      KC_B,    KC_MUTE,           XXXXXXX,    KC_N,      KC_M,     KC_COMM,   KC_DOT,    KC_SLSH,   KC_RSFT, \
 // '----------+----------+----------+----------+----------+----------+----------|      |----------+----------+----------+----------+----------+----------+----------'
-                           KC_LCTRL,  _______,    KC_LALT,  KC_LOWER,  KC_BSPC,   LT(_RAISE,KC_SPC),   KC_RAISE,  KC_RCTRL,   _______,   KC_ENT \
+                           KC_LCTRL,  _______,    KC_LALT,  KC_LOWER,  LT(_LOWER,KC_BSPC),   LT(_RAISE,KC_SPC),   KC_RAISE,  KC_RCTRL,   _______,   KC_ENT \
 //                       |----------+----------+----------+----------+----------|      |----------+----------+----------+----------+----------|
 ),
 /*
@@ -114,7 +118,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // |----------+----------+----------+----------+-----=----+----------+----------|      |----------+----------+-----=----+----------+----------+----------+----------|
       KC_LSFT,  KC_QUOT,     KC_Q,      KC_J,      KC_K,      KC_X,    KC_MUTE,           XXXXXXX,    KC_B,      KC_M,      KC_W,      KC_V,      KC_Z,    KC_RSFT, \
 // '----------+----------+----------+----------+----------+----------+----------|      |----------+----------+----------+----------+----------+----------+----------'
-                           KC_LGUI,   KC_LALT,   KC_LCTRL,  KC_LOWER,  KC_BSPC,   LT(_RAISE,KC_SPC),   KC_RAISE,  KC_RCTRL,  KC_RALT,  KC_ADJUST \
+                           KC_LGUI,   KC_LALT,   KC_LCTRL,  KC_LOWER,LT(_LOWER,KC_BSPC),LT(_RAISE,KC_SPC),   KC_RAISE,  KC_RCTRL,  KC_RALT,  KC_ADJUST \
 //                       |----------+----------+----------+----------+----------|      |----------+----------+----------+----------+----------|
 ),
 /* LOWER
@@ -401,7 +405,8 @@ bool oled_task_user(void) {
 #endif
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
-    // if (!process_caps_word(keycode, record)) { return false; }
+	if (keycode != SELWORD) { is_selword_active = false; }
+	if (keycode == KC_RIGHT || keycode == KC_END) { nav_pressed = true; }
     switch (keycode) {
         case KC_QWERTY:
             if (record->event.pressed) {
@@ -452,6 +457,22 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             } else {
                 layer_off(_ADJUST);
             }
+            return false;
+        case SELWORD:  // Selects the current word under the cursor.
+	    if (record->event.pressed) {
+		 if (!is_selword_active) {
+	             is_selword_active = true;
+		     if (nav_pressed) {
+		         SEND_STRING(SS_LCTL(SS_LSFT(SS_TAP(X_LEFT))));
+		     } else {
+		         SEND_STRING(SS_LCTL(SS_TAP(X_RGHT) SS_LSFT(SS_TAP(X_LEFT))));
+		     }
+		 } else {
+		     SEND_STRING(SS_LCTL(SS_LSFT(SS_TAP(X_LEFT))));
+		 }
+		 nav_pressed = false;
+		 selword_timer = timer_read();
+	    }
             return false;
         case KC_PRVWD:
             if (record->event.pressed) {
@@ -673,6 +694,14 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
             return false;
     }
     return true;
+}
+
+void matrix_scan_user(void) { // The very important timer.
+  if (is_selword_active) {
+    if (timer_elapsed(selword_timer) > 750) {
+      is_selword_active = false;
+    }
+  }
 }
 
 #ifdef ENCODER_ENABLE
