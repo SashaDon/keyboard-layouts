@@ -10,6 +10,8 @@ The json file is for http://www.keyboard-layout-editor.com/ ; for the image abov
 - Mouse Layer, Keypad Layer
 - Caps Word
 - Tab Dance
+- Added Combos (JK - Tab, JL - Enter, DF - Esc)
+- Added LT(_RAISE, space) on space 
 - Has a gaming layer which makes swaps the main buttons on the halves putting the space on the left active side.
 - Multiple layout support (Qwerty and Dvorak)
 - Support for russian typing

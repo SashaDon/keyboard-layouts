@@ -4,6 +4,8 @@
 // make redo, mouse layer, gamer layer and figure out whats wrong with my screens!!!
 // its probably jumpers lines under the elite-c microcontroller!!! 
 
+#include "g/keymap_combo.h"
+
 enum sofle_layers {
     /* _M_XYZ = Mac Os, _W_XYZ = Win/Linux */
     _QWERTY,
@@ -83,7 +85,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // |----------+----------+----------+----------+-----=----+----------+----------|      |----------+----------+-----=----+----------+----------+----------+----------|
       KC_LSFT,    KC_Z,      KC_X,      KC_C,      KC_V,      KC_B,    KC_MUTE,           XXXXXXX,    KC_N,      KC_M,     KC_COMM,   KC_DOT,    KC_SLSH,   KC_RSFT, \
 // '----------+----------+----------+----------+----------+----------+----------|      |----------+----------+----------+----------+----------+----------+----------'
-                           KC_LCTRL,  _______,    KC_LALT,  KC_LOWER,  KC_BSPC,           KC_SPC,   KC_RAISE,  KC_RCTRL,   _______,   KC_ENT \
+                           KC_LCTRL,  _______,    KC_LALT,  KC_LOWER,  KC_BSPC,   LT(_RAISE,KC_SPC),   KC_RAISE,  KC_RCTRL,   _______,   KC_ENT \
 //                       |----------+----------+----------+----------+----------|      |----------+----------+----------+----------+----------|
 ),
 /*
@@ -112,7 +114,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 // |----------+----------+----------+----------+-----=----+----------+----------|      |----------+----------+-----=----+----------+----------+----------+----------|
       KC_LSFT,  KC_QUOT,     KC_Q,      KC_J,      KC_K,      KC_X,    KC_MUTE,           XXXXXXX,    KC_B,      KC_M,      KC_W,      KC_V,      KC_Z,    KC_RSFT, \
 // '----------+----------+----------+----------+----------+----------+----------|      |----------+----------+----------+----------+----------+----------+----------'
-                           KC_LGUI,   KC_LALT,   KC_LCTRL,  KC_LOWER,  KC_BSPC,           KC_SPC,   KC_RAISE,  KC_RCTRL,  KC_RALT,  KC_ADJUST \
+                           KC_LGUI,   KC_LALT,   KC_LCTRL,  KC_LOWER,  KC_BSPC,   LT(_RAISE,KC_SPC),   KC_RAISE,  KC_RCTRL,  KC_RALT,  KC_ADJUST \
 //                       |----------+----------+----------+----------+----------|      |----------+----------+----------+----------+----------|
 ),
 /* LOWER
