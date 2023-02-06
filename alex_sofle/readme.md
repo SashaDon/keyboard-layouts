@@ -1,6 +1,6 @@
 **My custom Sofle v1 42 key layout:**
 
-![keyboard-layout(14)](https://user-images.githubusercontent.com/2576834/195470600-3a8ba438-b64a-4bd9-9b1a-5df7417b7c0e.png)
+![keyboard-layout(5)](https://user-images.githubusercontent.com/2576834/183505349-5fa7173a-2ef5-452e-afed-4bc7db91c2a9.jpg)
 The bottom three layers are a toggle not hold.
 The json file is for http://www.keyboard-layout-editor.com/ ; for the image above.
 
@@ -8,10 +8,6 @@ The json file is for http://www.keyboard-layout-editor.com/ ; for the image abov
 - Oled Displays
 - Fully custom lower and raise layers to fit me personally.
 - Mouse Layer, Keypad Layer
-- Caps Word
-- Tab Dance
-- Added Combos (JK - Tab, JL - Enter, DF - Backwards word selection)
-- Added LT(_RAISE, space) on space, LT(_LOWER, bckspace) 
 - Has a gaming layer which makes swaps the main buttons on the halves putting the space on the left active side.
 - Multiple layout support (Qwerty and Dvorak)
 - Support for russian typing
