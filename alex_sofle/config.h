@@ -1,12 +1,5 @@
 #pragma once
 
-/* USB Device descriptor parameter */
-#define VENDOR_ID       0xFC32
-#define PRODUCT_ID      0x0287
-#define DEVICE_VER      0x0001
-#define MANUFACTURER    JosefAdamcik
-#define PRODUCT         Sofle
-
 /* key matrix size */
 // Rows are doubled-up
 #define MATRIX_ROWS 10
@@ -29,3 +22,4 @@
 #define COMBO_TERM 25
 
 #define IGNORE_MOD_TAP_INTERRUPT
+// #define PERMISSIVE_HOLD
