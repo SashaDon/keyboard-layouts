@@ -53,6 +53,6 @@ Came back to it October 2022~ & still using it 26th October 2023 (13 months apro
 
 *Updates*
 26-10-2023 - In october 2022 updated the image on the right side. to an ass its in /"hex and layout json and image"/asscheeks.png
-![image](https://photos.google.com/album/AF1QipPUhGzzOtKTPfFPR3lyLhvFgdSk9Fob-T2EgRD-/photo/AF1QipOGLuuCKfBxYKZ1KGtH-u9L9QWE0A-NZxcvJJ1j)
+![IMG_20221024_013505](https://github.com/SashaDon/keyboard-layouts/assets/2576834/1c0de96f-5a65-4a09-bebe-4b0531c78eb5)
 
 26-10-2023 - Unfortunately for some reason both the screens stopped working today when the cable is plugged on the left side. So this is the only photo of this masterpiece which took my some time to figure out :/ . Also some of the keys when pressed send a double single. So far (+,[) are the only ones I think. 
