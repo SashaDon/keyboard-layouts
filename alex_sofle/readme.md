@@ -48,4 +48,11 @@ All switches Black Inks, were hand lubed and filmed by me, no stabs which is gre
 
 Want to move to Dvorak full time on it, but since I have to use the russian layout alot I can't, but planning to to do in the future.
 
-Recieved November 8th 2021. Used it actively to July 14th 2022. (7 months)
+Recieved November 8th 2021. Used it actively to July 14th 2022. (7 months). 
+Came back to it October 2022~ & still using it 26th October 2023 (13 months aprox.).
+
+*Updates*
+26-10-2023 - In october 2022 updated the image on the right side. to an ass its in /"hex and layout json and image"/asscheeks.png
+![image](https://photos.google.com/album/AF1QipPUhGzzOtKTPfFPR3lyLhvFgdSk9Fob-T2EgRD-/photo/AF1QipOGLuuCKfBxYKZ1KGtH-u9L9QWE0A-NZxcvJJ1j)
+
+26-10-2023 - Unfortunately for some reason both the screens stopped working today when the cable is plugged on the left side. So this is the only photo of this masterpiece which took my some time to figure out :/ . Also some of the keys when pressed send a double single. So far (+,[) are the only ones I think. 
