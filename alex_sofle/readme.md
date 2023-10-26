@@ -52,6 +52,7 @@ Recieved November 8th 2021. Used it actively to July 14th 2022. (7 months).
 Came back to it October 2022~ & still using it 26th October 2023 (13 months aprox.).
 
 **Updates**
+
 26-10-2023 - In october 2022 updated the image on the right side. to an ass its in /"hex and layout json and image"/asscheeks.png
 ![IMG_20221024_013505](https://github.com/SashaDon/keyboard-layouts/assets/2576834/1c0de96f-5a65-4a09-bebe-4b0531c78eb5)
 
